@@ -1,0 +1,6 @@
+#command line arg of pdbid
+
+open $1/$1_protein.pdb
+addcharge
+save $1/$1_charged.mol2
+quit

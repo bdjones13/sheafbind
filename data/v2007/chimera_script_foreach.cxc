@@ -1,0 +1,5 @@
+# to run (use mobaxterm on hpcc):
+# alias chimerax=/opt/software-current/2023.06/x86_64/generic/software/ChimeraX/1.9-ubuntu22.04-amd64/bin/ChimeraX
+# chimerax --script "chimera_script.cxc"
+
+open chimera_script_single.cxc foreach ./*/*_protein.pdb

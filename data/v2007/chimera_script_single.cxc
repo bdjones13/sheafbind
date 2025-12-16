@@ -1,0 +1,3 @@
+# only works as part of foreach in chimera_script_foreach.cxc
+addcharge
+save $file_charged.mol2

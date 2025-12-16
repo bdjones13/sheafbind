@@ -1,4 +1,6 @@
-data/
+data/v2007/*/
+data/misc/
+data/sbatch_logs/
 .venv/
 !data/v2007/*.py
 !data/v2007/*.sh
