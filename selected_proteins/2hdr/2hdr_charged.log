@@ -1,0 +1,38 @@
+2025-09-16 16:23:58,818 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2025-09-16 16:23:58,819 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2025-09-16 16:23:58,819 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2025-09-16 16:23:58,820 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2025-09-16 16:23:58,821 INFO:main.py:774:main_driver:Loading topology files.
+2025-09-16 16:23:58,867 INFO:main.py:776:main_driver:Loading molecule: 2hdr.pdb
+2025-09-16 16:23:58,887 INFO:main.py:781:main_driver:Setting up molecule.
+2025-09-16 16:23:58,915 INFO:main.py:423:setup_molecule:Created biomolecule object with 539 residues and 5685 atoms.
+2025-09-16 16:23:58,916 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2025-09-16 16:23:58,929 WARNING:biomolecule.py:618:update_bonds:Gap in backbone detected between ILE A 281 and ILE A 282!
+2025-09-16 16:23:58,929 INFO:main.py:616:non_trivial:Loading forcefield.
+2025-09-16 16:23:58,935 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2025-09-16 16:23:58,939 INFO:main.py:474:is_repairable:This biomolecule is clean.  No repair needed.
+2025-09-16 16:23:58,939 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2025-09-16 16:23:58,939 INFO:main.py:661:non_trivial:Adding hydrogens to biomolecule.
+2025-09-16 16:23:58,942 INFO:main.py:666:non_trivial:Optimizing hydrogen bonds
+2025-09-16 16:23:58,942 INFO:__init__.py:375:initialize_wat_optimization:Initializing water bonding optimization...
+2025-09-16 16:23:59,029 CRITICAL:main.py:811:main_driver:Found gap in biomolecule structure for atom ATOM   4416  H2  ILE   282      20.558  14.301  22.706  0.0000 0.0000
+2025-09-16 16:23:59,030 CRITICAL:main.py:812:main_driver:Giving up.
+2025-09-16 17:00:45,271 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2025-09-16 17:00:45,271 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2025-09-16 17:00:45,273 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2025-09-16 17:00:45,275 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2025-09-16 17:00:45,279 INFO:main.py:772:main_driver:Loading topology files.
+2025-09-16 17:00:45,490 INFO:main.py:774:main_driver:Loading molecule: 2hdr.pdb
+2025-09-16 17:00:45,601 INFO:main.py:779:main_driver:Setting up molecule.
+2025-09-16 17:00:45,733 INFO:main.py:417:setup_molecule:Created biomolecule object with 539 residues and 5685 atoms.
+2025-09-16 17:00:45,739 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2025-09-16 17:00:45,765 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ILE A 281 and ILE A 282!
+2025-09-16 17:00:45,766 INFO:main.py:613:non_trivial:Loading forcefield.
+2025-09-16 17:00:45,788 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2025-09-16 17:00:45,797 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2025-09-16 17:00:45,798 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2025-09-16 17:00:45,799 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2025-09-16 17:00:45,810 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2025-09-16 17:00:45,810 INFO:__init__.py:370:initialize_wat_optimization:Initializing water bonding optimization...
+2025-09-16 17:00:46,103 CRITICAL:main.py:809:main_driver:Found gap in biomolecule structure for atom ATOM   4416  H2  ILE   282      20.558  14.301  22.706  0.0000 0.0000
+2025-09-16 17:00:46,104 CRITICAL:main.py:810:main_driver:Giving up.

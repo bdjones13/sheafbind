@@ -1,2 +1,5 @@
 data/
 .venv/
+!data/v2007/*.py
+!data/v2007/*.sh
+!data/v2007/*.cxc

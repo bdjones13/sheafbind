@@ -1,0 +1,11 @@
+numpy
+scipy
+gudhi
+petls
+matplotlib
+ipykernel
+anywidget
+nbformat
+pandas
+seaborn
+plotly
